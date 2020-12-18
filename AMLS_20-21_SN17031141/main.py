@@ -227,7 +227,7 @@ A_train_l1 = (np.array(A_train_l1).astype(int)+1)/2
 A_train_l1 = A_train_l1.astype(int)
 A_train_l2 = (np.array(A_train_l2).astype(int)+1)/2
 A_train_l2 = A_train_l2.astype(int)
-A_train_f = A_train_f.reshape((A_train_f//136, 136))
+A_train_f = A_train_f.reshape((A_train_f.size//136, 136))
 
 # Here we split the training data into training and testing.
 A1_train_x, A1_test_x, A1_train_y, A1_test_y = train_test_split(A_train_f, A_train_l1, test_size=0.25)
@@ -242,7 +242,7 @@ A_test_l1 = (np.array(A_test_l1).astype(int)+1)/2
 A_test_l1 = A_test_l1.astype(int)
 A_test_l2 = (np.array(A_test_l2).astype(int)+1)/2
 A_test_l2 = A_test_l2.astype(int)
-A_test_f = A_test_f.reshape((A_test_f//136, 136))
+A_test_f = A_test_f.reshape((A_test_f.size//136, 136))
 
 # Now we do the same for the Cartoon Set
 B1_train_df, B1_val_df, B1_test_df = \
@@ -325,7 +325,7 @@ acc_B1_test = metrics.accuracy_score(B1_mark_l, model_B1.predict(B1_mark_f))
 # Task B2
 # Here we build the CNN model
 model_B2 = Sequential()
-model_B2.add(InputLayer(input_shape=train_eyes[0].shape))
+model_B2.add(InputLayer(input_shape=B2_train_eyes[0].shape))
 model_B2.add(Conv2D(filters=96, kernel_size=(2, 2), strides=4, activation="relu", padding="same"))
 model_B2.add(MaxPooling2D(pool_size=(2, 2)))
 model_B2.add(BatchNormalization())
