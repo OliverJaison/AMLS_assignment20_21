@@ -1,0 +1,512 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.11.10)  18 DEC 2020 00:59
+entering extended mode
+**./Report.tex
+(Report.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03>
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(spconf.sty)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
+\dotsspace@=\muskip16
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks16
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count195
+\@cmidlb=\count196
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count197
+\@lastruleclass=\count198
+\@thisrulewidth=\dimen162
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+3.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count199
+\l__pdf_internal_box=\box49
+) (Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count266
+\scratchdimen=\dimen163
+\scratchbox=\box50
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen164
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks22
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+8.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<Figures/Example_SVM.PNG, id=1, 203.25937pt x 178.41656pt>
+File: Figures/Example_SVM.PNG Graphic file (type png)
+<use Figures/Example_SVM.PNG>
+Package pdftex.def Info: Figures/Example_SVM.PNG  used on input line 55.
+(pdftex.def)             Requested size: 142.28058pt x 124.89072pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+[1{C:/Users/Admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+
+ <./Figures/Example_SVM.PNG>]
+<Figures/Example_NN.PNG, id=11, 287.57437pt x 140.77594pt>
+File: Figures/Example_NN.PNG Graphic file (type png)
+<use Figures/Example_NN.PNG>
+Package pdftex.def Info: Figures/Example_NN.PNG  used on input line 67.
+(pdftex.def)             Requested size: 201.30069pt x 98.54247pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+<Figures/Example_KMeans.PNG, id=12, 277.78781pt x 185.94469pt>
+File: Figures/Example_KMeans.PNG Graphic file (type png)
+<use Figures/Example_KMeans.PNG>
+Package pdftex.def Info: Figures/Example_KMeans.PNG  used on input line 83.
+(pdftex.def)             Requested size: 194.45012pt x 130.16037pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+[2 <./Figures/Example_NN.PNG> <./Figures/Example_KMeans.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+24.
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Overfull \hbox (38.3454pt too wide) in paragraph at lines 126--127
+[]\OT1/ptm/m/n/10 Although it could have been hard coded the [][]\OT1/pcr/m/n/1
+0 train_test_split
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 130--131
+[]\OT1/ptm/m/n/10 Now for the CNN mod-els the li-braries [][]\OT1/pcr/m/n/10 Ke
+ras []\OT1/ptm/m/n/10 and
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 160--161
+[]\OT1/ptm/m/n/10 A model clas-si-fier is gen-er-ated us-ing the [][]\OT1/pcr/m
+/n/10 sklearn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+LaTeX Warning: Reference `table:Table1' on page 4 undefined on input line 162.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 173.
+
+
+Overfull \hbox (11.48448pt too wide) in paragraph at lines 174--205
+[][] 
+ []
+
+<Figures/A1_CNN_Graph.PNG, id=22, 289.08pt x 206.27063pt>
+File: Figures/A1_CNN_Graph.PNG Graphic file (type png)
+<use Figures/A1_CNN_Graph.PNG>
+Package pdftex.def Info: Figures/A1_CNN_Graph.PNG  used on input line 210.
+(pdftex.def)             Requested size: 202.35461pt x 144.38844pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+ [4]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 218.
+
+
+Overfull \hbox (13.71432pt too wide) in paragraph at lines 219--250
+[][] 
+ []
+
+<Figures/A2_CNN_Graph.PNG, id=26, 292.09125pt x 198.7425pt>
+File: Figures/A2_CNN_Graph.PNG Graphic file (type png)
+<use Figures/A2_CNN_Graph.PNG>
+Package pdftex.def Info: Figures/A2_CNN_Graph.PNG  used on input line 255.
+(pdftex.def)             Requested size: 204.46246pt x 139.11879pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+<Figures/Hog_Example.PNG, id=27, 280.79906pt x 139.27031pt>
+File: Figures/Hog_Example.PNG Graphic file (type png)
+<use Figures/Hog_Example.PNG>
+Package pdftex.def Info: Figures/Hog_Example.PNG  used on input line 265.
+(pdftex.def)             Requested size: 196.558pt x 97.48854pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+[5 <./Figures/A1_CNN_Graph.PNG> <./Figures/A2_CNN_Graph.PNG> <./Figures/Hog_Exa
+mple.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+LaTeX Warning: Reference `table:Table1' on page 6 undefined on input line 275.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+<Figures/Eye.PNG, id=34, 289.08pt x 135.50626pt>
+File: Figures/Eye.PNG Graphic file (type png)
+<use Figures/Eye.PNG>
+Package pdftex.def Info: Figures/Eye.PNG  used on input line 282.
+(pdftex.def)             Requested size: 202.35461pt x 94.85371pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+<Figures/B2_SVM_C.PNG, id=35, 310.91156pt x 203.25937pt>
+File: Figures/B2_SVM_C.PNG Graphic file (type png)
+<use Figures/B2_SVM_C.PNG>
+Package pdftex.def Info: Figures/B2_SVM_C.PNG  used on input line 295.
+(pdftex.def)             Requested size: 217.6366pt x 142.28058pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 303.
+
+
+Overfull \hbox (11.48448pt too wide) in paragraph at lines 304--327
+[][] 
+ []
+
+<Figures/B2_CNN_Graph.PNG, id=36, 292.84406pt x 197.23688pt>
+File: Figures/B2_CNN_Graph.PNG Graphic file (type png)
+<use Figures/B2_CNN_Graph.PNG>
+Package pdftex.def Info: Figures/B2_CNN_Graph.PNG  used on input line 332.
+(pdftex.def)             Requested size: 204.98944pt x 138.06485pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+[6 <./Figures/Eye.PNG> <./Figures/B2_SVM_C.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+<Figures/landmarks.PNG, id=42, 516.42938pt x 398.99063pt>
+File: Figures/landmarks.PNG Graphic file (type png)
+<use Figures/landmarks.PNG>
+Package pdftex.def Info: Figures/landmarks.PNG  used on input line 345.
+(pdftex.def)             Requested size: 206.56808pt x 159.59341pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 351.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+[7 <./Figures/B2_CNN_Graph.PNG> <./Figures/landmarks.PNG>] (Report.bbl)
+[8
+
+] (Report.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2103 strings out of 480224
+ 30933 string characters out of 2880102
+ 314855 words of memory out of 3000000
+ 18649 multiletter control sequences out of 15000+200000
+ 553248 words of font info for 63 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,8n,66p,595b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/courier/ucrr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmb8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (8 pages, 431908 bytes).
+PDF statistics:
+ 79 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

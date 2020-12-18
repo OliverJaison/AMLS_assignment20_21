@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Report.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: IEEEbib.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: ref.bib
+Warning--empty title in 6812816
+Warning--empty publisher in 6812816
+Warning--empty title in 8295029
+Warning--empty publisher in 8295029
+You've used 2 entries,
+            1838 wiz_defined-function locations,
+            463 strings with 3757 characters,
+and the built_in function-call counts, 390 in all, are:
+= -- 20
+> -- 28
+< -- 0
++ -- 10
+- -- 8
+* -- 29
+:= -- 67
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 20
+empty$ -- 39
+format.name$ -- 8
+if$ -- 81
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 4
+newline$ -- 11
+num.names$ -- 2
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 2
+width$ -- 3
+write$ -- 16
+(There were 4 warnings)
