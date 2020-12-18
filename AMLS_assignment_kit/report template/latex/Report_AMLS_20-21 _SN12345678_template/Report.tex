@@ -15,7 +15,7 @@
 \maketitle
 %
 \begin{abstract}
-    This section provides a brief overview of the methodology/results presented in the report.\footnote{The code is provided link-to-download-your-project.com and GitHub project: link-to-your-github-project}
+    This report addresses 4 tasks: Gender Classification, Emotion Classification, Face Shape Recognition and Eye Colour Classification. These tasks were performed on the CelebA dataset and the Cartoon Set. The major models used for each task were SVM with a polynomial kernel of degree 3 and a CNN. Both of these models were used for each task and the performance has been reasonable. The preprocessing involved generating an Active Shape Model (ASM) for the faces, isolating the eye in the image as a region of interest, applying the Histogram of Oriented Gradients operation on the images and also converting the colour space in the images to grayscale or HSI. The best performance for the gender classification task was 92.67\% testing accuracy, the best performance for the emotion classification task was 89.68\% testing accuracy, the best performance for the face shape recognition task was 99.12\% testing accuracy and finally the best performance of the eye colour classification task was 97.9\% testing accuracy.  \footnote{GitHub project: https://github.com/OliverJaison/AMLS\_assignment20\_21}
 \end{abstract}
 %
 
@@ -25,10 +25,10 @@
 \label{sec:intro}
     Computer Vision is a very popular field of Machine Learning Systems and this report addresses 4 problems that was solved using both computer vision and machine learning techniques. This report will discuss the methodology that was adopted on the ``CelebA" dataset and the ``Cartoon Set" dataset for the following tasks:
     \begin{itemize}
-    	\item Gender Classification
-    	\item Emotion Recognition
-    	\item Shape Classification
-    	\item Colour Classification
+    	\item A1: Gender Classification
+    	\item A2: Emotion Recognition
+    	\item B1: Shape Classification
+    	\item B2: Colour Classification
     \end{itemize}
 
     The proposed method for gender recognition is to generate an Active Shape Model (ASM) of the sample image to extract the specific landmark features. This method specifically uses the dlib package and its 68 landmarks to extract features from the face. We will then use this data to train a model to be used for predicting test data.\\
@@ -40,9 +40,13 @@
     For the latter, the images were preprocessed to crop out all but one of the eyes of the image to focus the appropriate information and were then fed into a model for training.
 \section{Literature survey}
 \label{sec:lite}
-    This section should focus on an overview of potential approaches to solve the tasks. You can introduce some classical and state-of-the-art machine learning algorithms.
-
-
+    Some researchers \cite{8942386} designed a Convolutional Neural Network model (CNN) to implement emotion recognition through analysis of facial expressions. The article topic here coincides with task A2 quite greatly and so is viable as a potential solution for the task. The approach is to first detect the face from an input image then crop and normalise the face to a size of 48x48. These cropped images are then used as input into the CNN. This method seems quite appealing as very little preprocessing is involved here and the input size is relatively small compared to the original size of the CelebA dataset with is 178x218. This would indicate that the system is quite compact. The CNN architecture used is provided in the article \cite{8942386}\\
+    
+	The article here \cite{8436710} advertises colour recognition in vehicles through representative colour region extraction and a CNN model. This topic is of interest here because the problem resembles task B2 in nature. The approach is to first detect the front of the vehicle as this will eliminate much noise such as glass and tarmac. Then to use Harris corner detection and generate a probability map from the detector. From there you can reconstruct a colour image without any noise such as light reflection and company logos on the vehicles. This new colour image is intended to be all one colour essentially that can be fed into a CNN to be trained and classified into a category. The architecture used is the Google Net CNN which is far too large for the purposes of task B2 but the approach to preprocessing the data is a viable option to improve the performance of the model by isolating the key features. \\
+	
+	This article \cite{8227986} proposes a method for reidentification of faces using Mean Shape Analysis of face images. The use is primarily for building security when allowing authorized individuals in and out of the structure. At first glance the topic seems quite different from any task specified earlier but upon closer inspection, it could have some potential for contributing to task B1. The training approach starts with extracting an Active Shape Model (ASM) off of the face in the training image and generate a large matrix of ASMs. These ASMs are then used to generate a K-means cluster with Prosrustes based distancing. A test image of an individual is then used. The individual must already have an image (not the same image) trained in the model. The ASM is extracted and used with the Procrustes distancing to find the closest cluster for identification.\\
+	
+	This article \cite{7017382} has an approach for classifying face shape of a 3D image of a human. It starts with first detecting the head area from the full body image. Then, using known features about the human body, such as the area where the chin and neck is found, the frontal image of the face is extracted in 2D. This image is then used for the least squares ellipsoid fitting technique to highlight as close to the edges of the face as possible. This information is then used to train an SVM. For task B1, the images are far simpler and therefore do not require as much preprocessing to highlight the edges.  
 \section{Description of models}
 \label{sec:models}
     Here the machine learning model choice will be explained and justified for each task. 
@@ -76,7 +80,6 @@
     Here, the image preprocessing techniques are far less complex as the CNN can do much of it for you. This means that while training time could be longer, preprocessing time is much shorter than it would be. This is convenient because once the model has been trained, testing it on raw data should not take long. So in terms of practicality the CNN may be more fitting to use.\\
     
     \subsection{K-Means Clustering}
-    \textbf{08227986}\\
     Traditionally, CNNs and SVMs are used for supervised learning. This means that the proper labels have been designated to each input datum beforehand and the model will learn based on this. Unsupervised learning is when the proper labels are not pre-designated. The model, therefore has to perform pattern recognition to see what kind of classification/categorisation can be performed on the training set.\\
     \begin{figure}[htb]
     	\centering
@@ -89,14 +92,14 @@
 	
 	 The issue with this however is that this model is intended for unsupervised learning and our problem is of a supervised learning nature. Despite this, it is still worth considering as a model because you can specify the initial cluster centres and the method to calculate the geometric distances.\\
 	 
-	  The idea behind this is that you can take 5 images from the cartoon set for which the labels are 0-4 respectively and use that data as the cluster centres. Upon learning with more and more data, the clusters will expand and the centres will change position but if learnt correctly the new centres should not vary in position too greatly from the initial setting.
+	  The idea behind this is that you can take 5 images from the cartoon set for which the labels are 0-4 respectively and use that data as the cluster centres. Upon learning with more and more data, the clusters will expand and the centres will change position but if learnt correctly the new centres should not vary in position too greatly from the initial setting. The method has already proven successful for subject reidentification \cite{8227986}
 	  
     \subsection{Task A1: Gender Detection}
     For this particular task, two models were implemented and tested. Firstly, an SVM model was tested because it is a binary classification problem. This would mean that only one decision boundary has to be generated so by far it should be the simplest model to generate. The preprocessing for this particular model involves using an Active Shape Model (ASM) generated by the dlib package. This particular ASM has only 68 landmarks but the performance is quite reasonable and can be seen in Section \ref{sec:results}. \\
     
     However, despite the fact that human beings can generally tell apart genders, the landmark information from any face will appear to overlap in some aspects due to both samples simply having a human face. This would mean that the decision boundary for the SVM would probably not be as simple as a linear function. \\
     
-    The other model implemented was a CNN. The reasoning behind this is that the data samples we are looking at involve RGB images of resolution (178x218). There is quite a lot of literature explains that CNNs are quite advantageous when used on images for image classification \textbf{8295029}. 
+    The other model implemented was a CNN. The reasoning behind this is that the data samples we are looking at involve RGB images of resolution (178x218). There is literature \cite{08942386} explaining that CNNs are quite advantageous when used on images for image classification \textbf{8295029}. 
     \subsection{Task A2: Emotion Recognition}
     This task has a lot of similarities with A1 in that it is from the same dataset and that it is a binary classification problem. So for the same reasons both an SVM model and a CNN model will be used. The difference being that the CNN architecture will be different as the feature desired from the image is different.
     \subsection{Task B1: Face Shape Recognition}

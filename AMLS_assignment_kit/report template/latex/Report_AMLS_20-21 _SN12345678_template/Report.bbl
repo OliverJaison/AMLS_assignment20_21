@@ -1,5 +1,32 @@
 \begin{thebibliography}{1}
 
+\bibitem{8942386}
+I.~{Lasri}, A.~R. {Solh}, and M.~E. {Belkacemi},
+\newblock ``Facial emotion recognition of students using convolutional neural
+  network,''
+\newblock in {\em 2019 Third International Conference on Intelligent Computing
+  in Data Sciences (ICDS)}, 2019, pp. 1--6.
+
+\bibitem{8436710}
+K.~{Kim}, P.~{Kim}, K.~{Lim}, Y.~{Chung}, Y.~{Song}, S.~I. {Lee}, and
+  D.~{Choi},
+\newblock ``Vehicle color recognition via representative color region
+  extraction and convolutional neural network,''
+\newblock in {\em 2018 Tenth International Conference on Ubiquitous and Future
+  Networks (ICUFN)}, 2018, pp. 89--94.
+
+\bibitem{8227986}
+S.~{Kanchanapreechakorn},
+\newblock ``Robust human re-identification using mean shape analysis of face
+  images,''
+\newblock in {\em TENCON 2017 - 2017 IEEE Region 10 Conference}, 2017.
+
+\bibitem{7017382}
+P.~{Sarakon}, T.~{Charoenpong}, and S.~{Charoensiriwath},
+\newblock ``Face shape classification from 3d human data by using svm,''
+\newblock in {\em The 7th 2014 Biomedical Engineering International
+  Conference}, 2014.
+
 \bibitem{6812816}
 C.~{Campbell} and Y.~{Ying},
 \newblock 2010.
