@@ -61,9 +61,8 @@
     	\label{fig:example_svm}
     \end{figure}
 
-    Now it can be seen in Fig. \ref{fig:example_svm} that the decision region can be moved slightly closer to either space and the classification would remain the same. The job of the SVM is the optimize this decision. Another thing to note here is that the decision boundary need not be a straight line (linear), it can fit other shapes as well. Namely polynomial lines of different degrees and a radial basis function. \\
-    
-    It can be quite intuitive here however, that using SVMs as a model should work well for discrete data that has clear and definitive categories i.e. a classification problem. Especially considering that for task A1, the problem is of binary classification, meaning that only two categories exist. From here we need to preprocess the data into the necessary details and size for an SVM model to analyse and categorise, the implementation of which will be shown in Section \ref{sec:impl}.
+    Now it can be seen in Fig. \ref{fig:example_svm} that the decision region can be moved slightly closer to either space and the classification would remain the same. The job of the SVM is the optimize this decision. \\
+    It can be quite intuitive here here, that using SVMs as a model should work well for discrete data that has clear and definitive categories i.e. a classification problem. Especially considering that for task A1, the problem is of binary classification, meaning that only two categories exist. From here we need to preprocess the data into the necessary details and size for an SVM model to analyse and categorise, the implementation of which will be shown in Section \ref{sec:impl}.
     
     \subsection{Convolutional Neural Networks}
     \begin{figure}[htb]
@@ -74,11 +73,8 @@
     \end{figure}
     
     It is shown in Fig.\ref{fig:example_nn} what an artificial neural network looks like. Data is fed into the input layer and then into each hidden layer. Each neuron in each layer performs a series of computations to transform the data and the modify by the neurons bias. Each neuron will have its own unique bias. At the output the predictions are compared with the true values using a cost function. The results of the cost function will be applied to all the layers to re-adjust the neuron biases and weights. In this way the model is trained.\\
-    
-    CNNs are just another type of neural network where some of the hidden layers will be convolutional layers. These layers perform the operation of convolution onto the data to extract features. The kernel size used for convolution can be specified such that CNNs are very useful when the data involves images. It can extract the necessary features in the learning process. The specific architecture used will be shown in Section \ref{sec:impl}.\\
-    
-    Here, the image preprocessing techniques are far less complex as the CNN can do much of it for you. This means that while training time could be longer, preprocessing time is much shorter than it would be. This is convenient because once the model has been trained, testing it on raw data should not take long. So in terms of practicality the CNN may be more fitting to use.\\
-    
+    CNNs are just another type of neural network where some of the hidden layers will be convolutional layers. These layers perform the operation of convolution onto the data to extract features. They can extract the necessary features in the learning process. The specific architecture used will be shown in Section \ref{sec:impl}.\\
+    Here, the image preprocessing techniques are far less complex as the CNN can do much of it for you \cite{8942386}. This means that while training time could be longer, preprocessing time is much shorter than it would be. This is convenient because once the model has been trained, testing it should not take long. So in terms of practicality the CNN may be more fitting to use.
     \subsection{K-Means Clustering}
     Traditionally, CNNs and SVMs are used for supervised learning. This means that the proper labels have been designated to each input datum beforehand and the model will learn based on this. Unsupervised learning is when the proper labels are not pre-designated. The model, therefore has to perform pattern recognition to see what kind of classification/categorisation can be performed on the training set.\\
     \begin{figure}[htb]
@@ -99,7 +95,7 @@
     
     However, despite the fact that human beings can generally tell apart genders, the landmark information from any face will appear to overlap in some aspects due to both samples simply having a human face. This would mean that the decision boundary for the SVM would probably not be as simple as a linear function. \\
     
-    The other model implemented was a CNN. The reasoning behind this is that the data samples we are looking at involve RGB images of resolution (178x218). There is literature \cite{08942386} explaining that CNNs are quite advantageous when used on images for image classification \textbf{8295029}. 
+    The other model implemented was a CNN. The reasoning behind this is that the data samples we are looking at involve RGB images of resolution (178x218). There is literature \cite{8942386} explaining that CNNs are quite advantageous when used on images for image classification \cite{8295029}. 
     \subsection{Task A2: Emotion Recognition}
     This task has a lot of similarities with A1 in that it is from the same dataset and that it is a binary classification problem. So for the same reasons both an SVM model and a CNN model will be used. The difference being that the CNN architecture will be different as the feature desired from the image is different.
     \subsection{Task B1: Face Shape Recognition}
@@ -162,15 +158,17 @@
 	 
 	 A model classifier is generated using the \verb|sklearn| package with a \textit{polynomial} kernel of degree 3 and a hyper-parameter of 1. This classifier is then fit to the training data and labels. The accuracy of the model is seen when using the \verb|predict| method from the \verb|sklearn| package with the test data and test labels split from earlier.\\
 	 
-	 It should be noted that due to the size of the dataset and the resolution of the image, the preprocessing of this dataset takes quite long. It was also attempted to downscale the images to 45x55 before grayscaling them in order to reduce computational and time cost. The results for both can be found in Section \ref{sec:results} and Table \ref{table:Table1}.
+	 It should be noted that due to the size of the dataset and the resolution of the image, the preprocessing of this dataset takes quite long. It was also attempted to downscale the images to 45x55 before grayscaling them in order to reduce computational and time cost. The results for both can be found in Section \ref{sec:results} and Table \ref{table:results}.
 
  	\subsubsection{CNN Training Pipeline}
  	Firstly \verb|pandas| was used to read in the labels file into a data-frame. Then using some \verb|pandas| methods the binary labelling of gender was replaced with one hot encoding. This new data-frame with one-hot encoding was then randomised and split into training, validation and testing data-frames with 6:2:2 ratio using the \verb|numpy| package.\\
  	
  	Then each of these data-frames were used in the \\ \verb|ImageDataGenerator| class from \verb|keras| with the following parameters: target\_size=(55,45), batch\_size=30,\\ color\_mode=grayscale, interpolation=bicubic.\\
  	
- 	This was done because the \verb|ImageDataGenerator| class is quite a convenient format for data to be fed into the CNN for training and testing. The CNN architecture used is shown in Table \ref{table:A1_Arch}. The learning rate was set to 0.0001 and the \textit{Adam} optimizer was used with a loss function of \textit{Binary Cross-entropy}.\\
- 	
+ 	This was done because the \verb|ImageDataGenerator| class is quite a convenient format for data to be fed into the CNN for training and testing. The CNN architecture used is shown in Table \ref{table:A1_Arch}. The learning rate was set to 0.0001 and the \textit{Adam} optimizer was used with a loss function of \textit{Binary Cross-entropy}. The learning rate was set to this value because we do not want it so large that it fails to converge but we also do not want it too small as this will increase learning time. The loss function for Binary Cross Entropy can be seen in Equation \ref{eq:BCE}.
+ 	\begin{equation}\label{eq:BCE}
+ 		H_p(q) = - \frac{1}{N} \sum_{i=1}^{N} y_i \dot log(p(y_i)) + (1-y_i) \dot log(1-p(y_i)) 
+ 	\end{equation}
  	 The model is then fit using the training and validation generators. The model was initially trained for 25 epochs and the results would then be plotted on a graph using the \verb|matplotlib| package features to observe the convergence. The results of the training and testing can be found in Section \ref{sec:results}.
  	
  	\begin{table}[]
@@ -213,9 +211,10 @@
 		\includegraphics[scale=0.7]{Figures/A1_CNN_Graph.PNG}
 		\caption{A1 CNN Learning Curve}
 		\label{fig:A1_curve}
-	\end{figure} 	
+	\end{figure}
+	It can be seen in Figure \ref{fig:A1_curve} that the validation accuracy flattens after 5 epochs. With this the choice for training for five epochs can be justified for this model. 	
     \subsection{Task A2: Emotion Recognition}
-    Seeing as the task for A2 is very similar to A1, the same training pipeline and image preprocessing techniques is utilised for the SVM model. This is because of the 68 landmarks, some of them are dedicated to the lips of the face of the subject. There fore the same feature extraction can be used.\\
+    Seeing as the task for A2 is very similar to A1, the same training pipeline and image preprocessing techniques is utilised for the SVM model. This is because of the 68 landmarks, some of them are dedicated to the lips of the face of the subject. There fore the same feature extraction can be used. Different labels are used of course to indicate the different task.\\
     
     For the CNN model however, the feature being analysed is quite different to A1 so a different neural network architecture is used and it can be seen in Table \ref{table:A2_Arch}.
  	\begin{table}[]
@@ -259,6 +258,7 @@
     	\caption{A2 CNN Learning Curve}
     	\label{fig:A2_curve}
     \end{figure} 
+	It can be seen here in Figure \ref{fig:A2_curve} that the validation accuracy flattens after 10 epochs which suggests that the training time need only be at least 10 epochs.
     \subsection{Task B1: Face Shape Recognition}
     Task B1 is very similar to A1 and A2 in the sense that similar features need to be extracted from the images for training purposes. The differences are that this is now a multi-class classification problem and that the 68 landmarks used in tasks A1 and A2 are not as accurate for cartoon faces and therefore are not as effective for feature extraction as other methods.\\
     
@@ -335,21 +335,20 @@
 	\includegraphics[scale=0.7]{Figures/B2_CNN_Graph.PNG}
 	\caption{B2 CNN Learning Curve}
 	\label{fig:B2_curve}
-\end{figure}	
+\end{figure}
+	Here in Figure \ref{fig:B2_curve} the validation accuracy flattens after 6 epochs so it would seem that at least 6 epochs is required to train this model, although any more than 10 is a waste of time. 	
 \section{Experimental Results and Analysis}
 \label{sec:results}
     The results of each model case for the tasks can be found in Table \ref{table:results}. It can be observed that in most cases the training accuracy is best with a CNN model but the testing accuracy is best with an SVM model.\\
     
      For tasks A1 and A2 it takes approximately 3 hours to generate the feature matrix of the full 5000 images from the dataset. This will be because the functions used to generate the coordinates of the 68 landmarks are quite complex in time (from observation at least $O(n^3)$ timing complexity). Right now the functions use a brute force tactic to generate the landmarks but if a more efficient algorithm was used then this will save a lot of time.\\
-     
-     Another point to be made is that it is unlikely for task A2 that the model will need the full 68 landmarks to detect whether the subject is smiling or not accurately. This can be observed in Figure \ref{fig:landmarks}. Theoretically you should only need the landmarks centred around the jaw and the lips. The rest of the landmarks are useless and need not be calculated, with this some time should be saved in generating the feature matrix for A2.\\
+     Another point to be made is that it is unlikely for task A2 that the model will need the full 68 landmarks to detect whether the subject is smiling or not accurately. This can be observed in Figure \ref{fig:landmarks}. Theoretically you should only need the landmarks centred around the jaw and the lips. The rest of the landmarks are useless and need not be calculated, with this some time should be saved in generating the feature matrix for A2.
      \begin{figure}[htb]
      	\centering
      	\includegraphics[scale=0.4]{Figures/landmarks.PNG}
      	\caption{Visual representation of the 68 landmarks from dlib}
      	\label{fig:landmarks}
      \end{figure}
- 
   	The preprocessing for the other tasks runs fairly quickly because little preprocessing is required and that which is there is not very computationally intensive. It does take longer to train the CNN models over the SVM models but here one could trade-off complexity of the network for performance of the model. 
     \begin{table}[]
     \begin{tabular}{@{}lllll@{}}
@@ -370,7 +369,6 @@
 \section{Conclusion}
 \label{sec:conc}
     In this work, six functioning machine learning models have been built and trained using the CelebA dataset and the Cartoon Set for four unique tasks. Tasks A1 and A2 involved gender detection and emotion detection on the CelebA dataset and the best model for both of these tasks seems to have been an SVM model with a polynomial kernel and hyper-parameter of 1. The image preprocessing done for both of these tasks is identical but the techniques used causes a great bottleneck in the training and testing of the model.\\
-    
     Tasks B1 and B2 involved face shape recognition and eye colour recognition respectively, on the Cartoon Set. It was found that the SVM model with an RBF kernel and hyper-parameter of 75 was the best option for task B1. The best option for task B2 was a CNN with the architecture shown in Table \ref{table:B2_Arch}. The preprocessing done on the Cartoon Set for B1 was simply to apply the HOG operation onto each image. The preprocessing done on the same dataset for B2 was to isolate the eye using Haar Cascades and to use only the eye as the input to the CNN.
 
 % References should be produced using the bibtex program from suitable

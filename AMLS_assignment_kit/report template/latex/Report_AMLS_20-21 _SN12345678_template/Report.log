@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.11.10)  18 DEC 2020 02:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.11.10)  18 DEC 2020 16:34
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -228,61 +228,47 @@ File: Figures/Example_SVM.PNG Graphic file (type png)
 <use Figures/Example_SVM.PNG>
 Package pdftex.def Info: Figures/Example_SVM.PNG  used on input line 59.
 (pdftex.def)             Requested size: 142.28058pt x 124.89072pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
 <Figures/Example_NN.PNG, id=10, 287.57437pt x 140.77594pt>
 File: Figures/Example_NN.PNG Graphic file (type png)
 <use Figures/Example_NN.PNG>
-Package pdftex.def Info: Figures/Example_NN.PNG  used on input line 71.
+Package pdftex.def Info: Figures/Example_NN.PNG  used on input line 70.
 (pdftex.def)             Requested size: 201.30069pt x 98.54247pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
 [2 <./Figures/Example_SVM.PNG> <./Figures/Example_NN.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
 <Figures/Example_KMeans.PNG, id=16, 277.78781pt x 185.94469pt>
 File: Figures/Example_KMeans.PNG Graphic file (type png)
 <use Figures/Example_KMeans.PNG>
-Package pdftex.def Info: Figures/Example_KMeans.PNG  used on input line 86.
+Package pdftex.def Info: Figures/Example_KMeans.PNG  used on input line 82.
 (pdftex.def)             Requested size: 194.45012pt x 130.16037pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-LaTeX Warning: Citation `08942386' on page 3 undefined on input line 102.
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
@@ -292,8 +278,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
  []
 
 [3 <./Figures/Example_KMeans.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+23.
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Overfull \hbox (38.3454pt too wide) in paragraph at lines 125--126
+[]\OT1/ptm/m/n/10 Although it could have been hard coded the [][]\OT1/pcr/m/n/1
+0 train_test_split
  []
 
 
@@ -301,35 +302,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-27.
-(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Overfull \hbox (38.3454pt too wide) in paragraph at lines 129--130
-[]\OT1/ptm/m/n/10 Although it could have been hard coded the [][]\OT1/pcr/m/n/1
-0 train_test_split
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 133--134
+Underfull \hbox (badness 1163) in paragraph at lines 129--130
 []\OT1/ptm/m/n/10 Now for the CNN mod-els the li-braries [][]\OT1/pcr/m/n/10 Ke
 ras []\OT1/ptm/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
  []
 
 
@@ -337,85 +328,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 163--164
+Underfull \hbox (badness 1048) in paragraph at lines 159--160
 []\OT1/ptm/m/n/10 A model clas-si-fier is gen-er-ated us-ing the [][]\OT1/pcr/m
 /n/10 sklearn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-LaTeX Warning: Reference `table:Table1' on page 5 undefined on input line 165.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 176.
+               Default added (so using `tbp') on input line 174.
 
 
-Overfull \hbox (11.48448pt too wide) in paragraph at lines 177--208
+Overfull \hbox (11.48448pt too wide) in paragraph at lines 175--206
 [][] 
  []
 
 <Figures/A1_CNN_Graph.PNG, id=25, 289.08pt x 206.27063pt>
 File: Figures/A1_CNN_Graph.PNG Graphic file (type png)
 <use Figures/A1_CNN_Graph.PNG>
-Package pdftex.def Info: Figures/A1_CNN_Graph.PNG  used on input line 213.
+Package pdftex.def Info: Figures/A1_CNN_Graph.PNG  used on input line 211.
 (pdftex.def)             Requested size: 202.35461pt x 144.38844pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-[5 <./Figures/A1_CNN_Graph.PNG>]
+
+Underfull \vbox (badness 2951) has occurred while \output is active []
+
+ [5 <./Figures/A1_CNN_Graph.PNG>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 221.
+               Default added (so using `tbp') on input line 220.
 
 
-Overfull \hbox (13.71432pt too wide) in paragraph at lines 222--253
+Overfull \hbox (13.71432pt too wide) in paragraph at lines 221--252
 [][] 
  []
 
-<Figures/A2_CNN_Graph.PNG, id=30, 292.09125pt x 198.7425pt>
+<Figures/A2_CNN_Graph.PNG, id=36, 292.09125pt x 198.7425pt>
 File: Figures/A2_CNN_Graph.PNG Graphic file (type png)
 <use Figures/A2_CNN_Graph.PNG>
-Package pdftex.def Info: Figures/A2_CNN_Graph.PNG  used on input line 258.
+Package pdftex.def Info: Figures/A2_CNN_Graph.PNG  used on input line 257.
 (pdftex.def)             Requested size: 204.46246pt x 139.11879pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<Figures/Hog_Example.PNG, id=31, 280.79906pt x 139.27031pt>
+<Figures/Hog_Example.PNG, id=37, 280.79906pt x 139.27031pt>
 File: Figures/Hog_Example.PNG Graphic file (type png)
 <use Figures/Hog_Example.PNG>
 Package pdftex.def Info: Figures/Hog_Example.PNG  used on input line 268.
@@ -438,7 +414,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-<Figures/Eye.PNG, id=32, 289.08pt x 135.50626pt>
+[6 <./Figures/A2_CNN_Graph.PNG> <./Figures/Hog_Example.PNG>]
+<Figures/Eye.PNG, id=43, 289.08pt x 135.50626pt>
 File: Figures/Eye.PNG Graphic file (type png)
 <use Figures/Eye.PNG>
 Package pdftex.def Info: Figures/Eye.PNG  used on input line 285.
@@ -448,12 +425,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--290
 
  []
 
-[6 <./Figures/A2_CNN_Graph.PNG> <./Figures/Hog_Example.PNG>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-<Figures/B2_SVM_C.PNG, id=38, 310.91156pt x 203.25937pt>
+<Figures/B2_SVM_C.PNG, id=44, 310.91156pt x 203.25937pt>
 File: Figures/B2_SVM_C.PNG Graphic file (type png)
 <use Figures/B2_SVM_C.PNG>
 Package pdftex.def Info: Figures/B2_SVM_C.PNG  used on input line 298.
@@ -472,41 +449,26 @@ Overfull \hbox (11.48448pt too wide) in paragraph at lines 307--330
 [][] 
  []
 
-<Figures/B2_CNN_Graph.PNG, id=39, 292.84406pt x 197.23688pt>
+<Figures/B2_CNN_Graph.PNG, id=45, 292.84406pt x 197.23688pt>
 File: Figures/B2_CNN_Graph.PNG Graphic file (type png)
 <use Figures/B2_CNN_Graph.PNG>
 Package pdftex.def Info: Figures/B2_CNN_Graph.PNG  used on input line 335.
 (pdftex.def)             Requested size: 204.98944pt x 138.06485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-[7 <./Figures/Eye.PNG> <./Figures/B2_SVM_C.PNG> <./Figures/B2_CNN_Graph.PNG>]
-<Figures/landmarks.PNG, id=47, 516.42938pt x 398.99063pt>
+<Figures/landmarks.PNG, id=46, 516.42938pt x 398.99063pt>
 File: Figures/landmarks.PNG Graphic file (type png)
 <use Figures/landmarks.PNG>
 Package pdftex.def Info: Figures/landmarks.PNG  used on input line 348.
 (pdftex.def)             Requested size: 206.56808pt x 159.59341pt.
 
-
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 354.
+               Default added (so using `tbp') on input line 353.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-
-Underfull \vbox (badness 8094) has occurred while \output is active []
-
- (Report.bbl
+[7 <./Figures/Eye.PNG> <./Figures/B2_SVM_C.PNG>] (Report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 19--23
 []\OT1/ptm/m/n/10 S. Kan-chanapreechakorn,  ``Ro-bust hu-man re-
  []
@@ -516,31 +478,34 @@ Underfull \hbox (badness 6961) in paragraph at lines 19--23
 \OT1/ptm/m/n/10 identification us-ing mean shape anal-y-sis of face
  []
 
-) [8 <./Figures/landmarks.PNG>] (Report.aux)
+) [8 <./Figures/B2_CNN_Graph.PNG> <./Figures/landmarks.PNG>] (Report.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2107 strings out of 480224
- 30969 string characters out of 2880102
- 311867 words of memory out of 3000000
- 18653 multiletter control sequences out of 15000+200000
+ 2108 strings out of 480224
+ 30977 string characters out of 2880102
+ 312875 words of memory out of 3000000
+ 18654 multiletter control sequences out of 15000+200000
  553248 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,66p,1138b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/courier/ucrr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmb8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (8 pages, 438602 bytes).
+/cm/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Admin/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Admin/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Admin/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (8 pages, 465836 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
